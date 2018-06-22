@@ -6111,6 +6111,9 @@ html, body {
   color: #fff;
   background: linear-gradient(-30deg, #4f70ce 0%, #12bbad 50%, #12bbad 100%); }
 
+.btn {
+  margin: 0; }
+
 .filter-dark {
   overflow: hidden;
   position: relative;

@@ -65,6 +65,10 @@ html,body {
   background: linear-gradient(-30deg, theme-color("secondary") 0%, theme-color("primary") 50%, theme-color("primary") 100%);
 }
 
+.btn{
+	margin: 0 auto;
+}
+
 .filter-dark {
   overflow: hidden;
   position: relative;
