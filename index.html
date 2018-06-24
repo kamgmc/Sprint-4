@@ -12,7 +12,7 @@
     <div class="container py-5">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="display-3 mb-4 text-secondary">100%Atención</h1>
+          <h1 class="display-3 mb-4 text-dark text-capitalize">100%Atención</h1>
           <p class="lead mb-5">Pingendo is a HTML editor for everyone. Easy for newbies, useful for professionals.
             <br>Code quality is a must. Pingendo generates clean, battle-tested, modular Bootstrap 4 code. </p>
           <a href="#login" class="btn btn-lg mx-1 btn-secondary">Ingresa</a>
@@ -21,11 +21,11 @@
       </div>
     </div>
   </div>
-  <div class="bg-secondary text-capitalize py-4">
+  <div class="bg-secondary text-capitalize py-5">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="text-center" style="margin-bottom:30px">Servicios</h2>
+          <h1 class="text-center" style="margin-bottom:30px">Servicios</h1>
         </div>
       </div>
       <div class="row">
@@ -66,15 +66,15 @@
         <div class="col-md-6">
           <div class="card">
             <div class="card-body p-5 text-center bg-secondary border-secondary">
-              <h1>Iniciar Sesión
+              <h1 class="text-center text-capitalize">Iniciar Sesión
                 <br> </h1>
-              <form action="https://formspree.io/YOUREMAILHERE" class="">
+              <form action="https://formspree.io/YOUREMAILHERE" class="" method="post">
                 <div class="form-group text-left">
-                  <label>Usuario</label>
-                  <input class="form-control" placeholder="Usuario"> </div>
+                  <label>Usuario o Correo Electronico</label>
+                  <input class="form-control" placeholder="Usuario o Correo Electronico" type="text" required="required" name="user"> </div>
                 <div class="form-group text-left">
                   <label>Contraseña</label>
-                  <input type="password" class="form-control" placeholder="Contraseña"> </div>
+                  <input class="form-control" placeholder="Contraseña" type="password" required="required" name="password"> </div>
                 <button type="submit" class="btn mt-2 text-center btn-lg btn-outline-light">Entrar</button>
               </form>
             </div>
