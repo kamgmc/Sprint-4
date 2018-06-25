@@ -15,57 +15,47 @@
         <div class="col-md-8">
           <div class="card">
             <div class="card-body bg-primary p-4">
-              <h3 class="pb-3 text-center">Registrate</h3>
+              <h3 class="pb-3 text-center">Haz tu cita</h3>
               <form action="https://formspree.io/YOUREMAILHERE" class="text-center">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group text-left">
-                      <label>Nombre</label>
-                      <input class="form-control" placeholder="Nombre" type="text" required="required"> </div>
+                      <label for="sel1">Especialidad</label>
+                      <select class="form-control" id="sel1">
+                        <option value="--Seleccione--">--Seleccione--</option>
+                        <option value="Cardiología">Cardiología</option>
+                        <option value="Otorrinolaringología">Otorrinolaringología</option>
+                        <option value="Ortopedia">Ortopedia</option>
+                        <option value="Pediatría">Pediatría</option>
+                      </select>
+                    </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-group text-left">
-                      <label>Apellido</label>
-                      <input class="form-control" type="text" placeholder="Apellido" required="required"> </div>
+                      <label for="sel1">Médico</label>
+                      <select class="form-control" id="sel1">
+                        <option value="--Seleccione--">--Seleccione--</option>
+                        <option value="Dr. Jose Peraza">Dr. Jose Peraza</option>
+                        <option value="Dr. Pedro Suarez">Dr. Pedro Suarez</option>
+                        <option value="Dr. Jonny Bravo">Dr. Jonny Bravo</option>
+                        <option value="Dr. Albert Doo">Dr. Albert Doo</option>
+                      </select>
+                    </div>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group text-left">
-                      <label>Fecha de Nacimiento</label>
-                      <input class="form-control" placeholder="Fecha de Nacimienot" type="date" required="required"> </div>
+                      <label>Fecha</label>
+                      <input class="form-control" placeholder="Fecha de Nacimiento" type="date" required="required"> </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-group text-left">
-                      <label>Usuario</label>
-                      <input class="form-control" type="text" placeholder="Usuario" required="required"> </div>
+                      <label>Hora</label>
+                      <input class="form-control" type="time" placeholder="Usuario" required="required"> </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group text-left">
-                      <label>Correo Electronico</label>
-                      <input class="form-control" placeholder="Email" type="text" required="required"> </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group text-left">
-                      <label>Time</label>
-                      <input class="form-control" type="time" required="required"> </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group text-left">
-                      <label>Contraseña</label>
-                      <input class="form-control" placeholder="Contraseña" type="password" required="required"> </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group text-left">
-                      <label>Repetir Contraseña</label>
-                      <input class="form-control" type="password" placeholder="Contraseña" required="required"> </div>
-                  </div>
-                </div>
-                <button type="submit" class="btn mt-2 btn-outline-light">Registrar
+                <button type="submit" class="btn mt-2 btn-outline-light">Solicitar
                   <br> </button>
               </form>
             </div>
